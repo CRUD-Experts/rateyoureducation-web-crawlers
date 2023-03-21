@@ -1,32 +1,3837 @@
 {
-    "data" : [
-        {"org":"Kwame Nkrumah University of Science and Technology",
-        "org_id":7152380281864737756,
-        "continent":"Africa",
-        "country":"Ghana",
-        "url":"https://scholar.google.com/citations?view_op=view_org&hl=en&org=7152380281864737756"},
-        
-        {"org":"University of Cape Coast",
-        "org_id":14888764304008682656,
-        "continent":"Africa",
-        "country":"Ghana",
-        "url":"https://scholar.google.com/citations?view_op=view_org&hl=en&org=14888764304008682656"},
-        
-        {"org":"University of Mines and Technology",
-        "org_id":"",
-        "continent":"Africa",
-        "country":"Ghana",
-        "url":"https://scholar.google.com/citations?view_op=search_authors&mauthors=umat&hl=en&oi=ao"},
-        
-        {"org":"University of Development Studies, Ghana",
-        "org_id":11107586290447276770,
-        "continent":"Africa",
-        "country":"Ghana",
-        "url":"https://scholar.google.com/citations?view_op=view_org&hl=en&org=11107586290447276770"},
-        
-        {"org":"University of Ghana",
-        "org_id":5976495280852929187,
-        "continent":"Africa",
-        "country":"Ghana",
-        "url":"https://scholar.google.com/citations?view_op=view_org&hl=en&org=5976495280852929187"}]
+    "UCC": [],
+    "UG": [],
+    "KNUST": [],
+    "UMAT": [
+        {
+            "name": "Richard Amankwah",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Gold beneficiation",
+                "hydrometallurgy",
+                "environmental biotechnology",
+                "microwave processing",
+                "small scale mining"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "1385",
+                "h-index": "19",
+                "i10-index": "28"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=958rufEAAAAJ"
+        },
+        {
+            "name": "Yao Yevenyo Ziggah (PhD)",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Geomatic Engineering",
+                "Geodesy",
+                "Geosciences",
+                "Machine Learning/AI"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=5yOqH18AAAAJ&citpid=6",
+            "indexes": {
+                "Citations": "1199",
+                "h-index": "19",
+                "i10-index": "36"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=5yOqH18AAAAJ"
+        },
+        {
+            "name": "Jerry Samuel Yaw Kuma",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Environmental Hydrogeology",
+                "Water Resources Management",
+                "Mine Water",
+                "Geophysics and Geology"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=tPONufgAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "512",
+                "h-index": "14",
+                "i10-index": "20"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=tPONufgAAAAJ"
+        },
+        {
+            "name": "Eric Stemn",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Occupational Health and Safety",
+                "GIS & RS Applications in Environmental Studies",
+                "Waste Management"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ivrmBEcAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "652",
+                "h-index": "14",
+                "i10-index": "19"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=ivrmBEcAAAAJ"
+        },
+        {
+            "name": "Dr. Andy Yaw Kwarteng",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Remote Sensing and GIS",
+                "Geology",
+                "Climate change"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=P05587AAAAAJ&citpid=5",
+            "indexes": {
+                "Citations": "1881",
+                "h-index": "14",
+                "i10-index": "19"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=P05587AAAAAJ"
+        },
+        {
+            "name": "Emmanuel Daanoba SUNKARI, PhD",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Exploration Geochemistry/Groundwater Geochemistry/Ore Deposit Geology/Petrology/Medical Geology/Geostatistics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=vqnT8iEAAAAJ&citpid=5",
+            "indexes": {
+                "Citations": "606",
+                "h-index": "15",
+                "i10-index": "18"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=vqnT8iEAAAAJ"
+        },
+        {
+            "name": "Solomon Nunoo",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "adaptive signal processing",
+                "wireless communication",
+                "energy management"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=apZAYykAAAAJ&citpid=4",
+            "indexes": {
+                "Citations": "668",
+                "h-index": "10",
+                "i10-index": "11"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=apZAYykAAAAJ"
+        },
+        {
+            "name": "Dr Grace Ofori-Sarpong",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Gold hydrometallurgy",
+                "mycohydrometallurgy",
+                "bioprocessing of minerals",
+                "mine wastewater"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=lTVA2aoAAAAJ&citpid=4",
+            "indexes": {
+                "Citations": "729",
+                "h-index": "12",
+                "i10-index": "13"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=lTVA2aoAAAAJ"
+        },
+        {
+            "name": "Asep Saepul Hamdi, M.Pd.,M.E",
+            "verified_at": "Verified email at stebipui.ac.id",
+            "specialty": [
+                "metode penelitian"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qQP7CDUAAAAJ&citpid=5",
+            "indexes": {
+                "Citations": "5765",
+                "h-index": "26",
+                "i10-index": "97"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=qQP7CDUAAAAJ"
+        },
+        {
+            "name": "Anthony Ewusi",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Groundwater and Geophysics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=VXYLIRQAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "504",
+                "h-index": "11",
+                "i10-index": "13"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=VXYLIRQAAAAJ"
+        },
+        {
+            "name": "Dominic Yellezuome",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Biomass energy",
+                "Anaerobic digestion"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "241",
+                "h-index": "9",
+                "i10-index": "9"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=rf1SiEkAAAAJ"
+        },
+        {
+            "name": "Engr. Dr. Clement A. Komolafe",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Thermal Engineering",
+                "Energy Technologies"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=zfj4W-oAAAAJ&citpid=10",
+            "indexes": {
+                "Citations": "256",
+                "h-index": "9",
+                "i10-index": "9"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=zfj4W-oAAAAJ"
+        },
+        {
+            "name": "Emmanuel Effah",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Computer Science and Engineering"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=mTlKWJcAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "251",
+                "h-index": "8",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=mTlKWJcAAAAJ"
+        },
+        {
+            "name": "Benjamin Edem Meteku (PhD)",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Chemical safety",
+                "Catalysis",
+                "Process technology",
+                "Nanomaterials",
+                "MOFs"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=mZi0nxIAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "297",
+                "h-index": "7",
+                "i10-index": "5"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=mZi0nxIAAAAJ"
+        },
+        {
+            "name": "Solomon Asante-Okyere",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Artificial Intelligence (AI) and Machine Learning",
+                "Reservoir Characterization",
+                "Petrophysics",
+                "Source Rock Geochemistry"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "267",
+                "h-index": "9",
+                "i10-index": "9"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=C3TY_MQAAAAJ"
+        },
+        {
+            "name": "Eric Gyimah, Ph.D.",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Analytical Chemistry & Environmental Toxicology"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Buz818MAAAAJ&citpid=20",
+            "indexes": {
+                "Citations": "445",
+                "h-index": "13",
+                "i10-index": "13"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=Buz818MAAAAJ"
+        },
+        {
+            "name": "Richard Amorin",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Drilling Optimisation",
+                "HSE",
+                "Natural Gas Utilisation"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=lkkgazAAAAAJ&citpid=5",
+            "indexes": {
+                "Citations": "307",
+                "h-index": "10",
+                "i10-index": "10"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=lkkgazAAAAAJ"
+        },
+        {
+            "name": "Prof Bernard Kumi-Boateng",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "GIS",
+                "Remote Sensing",
+                "Vegetation Mapping",
+                "Land Surveys"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=CdohxWgAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "253",
+                "h-index": "9",
+                "i10-index": "8"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=CdohxWgAAAAJ"
+        },
+        {
+            "name": "Eric Thompson Brantson",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Reservoir Modeling and Simulation"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "287",
+                "h-index": "11",
+                "i10-index": "12"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=JGLw4Q0AAAAJ"
+        },
+        {
+            "name": "Engr Prof Eric Broni-Bediako",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Drilling Optimization",
+                "Environment",
+                "Health and Safety in the Oil and Gas Industry",
+                "Petroleum Economics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ypfDaTIAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "317",
+                "h-index": "10",
+                "i10-index": "12"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=ypfDaTIAAAAJ"
+        },
+        {
+            "name": "Cila Umat",
+            "verified_at": "Verified email at ukm.edu.my",
+            "specialty": [
+                "Cochlear implant",
+                "speech perception",
+                "hearing screening technology",
+                "audiology"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Wcy-g1cAAAAJ&citpid=5",
+            "indexes": {
+                "Citations": "232",
+                "h-index": "8",
+                "i10-index": "6"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=Wcy-g1cAAAAJ"
+        },
+        {
+            "name": "Dr Clement Owusu (PhD, UniSA), WAIMM",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Process plant optimization",
+                "minerals flotation",
+                "aqueous processing and colloidal chemistry",
+                "minerals surface characterisation (T"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=JT4vuesAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "228",
+                "h-index": "7",
+                "i10-index": "6"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=JT4vuesAAAAJ"
+        },
+        {
+            "name": "Osei Harrison",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Petroleum Production",
+                "Oil water Separation"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=xHy4MxcAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "210",
+                "h-index": "4",
+                "i10-index": "3"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=xHy4MxcAAAAJ"
+        },
+        {
+            "name": "Clement Kweku Arthur, PhD",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Artificial Intelligence",
+                "Explosives and Blasting Technology",
+                "Optimisation of Mining Systems"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=TOJ6_30AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "225",
+                "h-index": "7",
+                "i10-index": "7"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=TOJ6_30AAAAJ"
+        },
+        {
+            "name": "Dr Frank Boateng",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "CSR",
+                "Strategy",
+                "ESG",
+                "Small Scale Mining",
+                "Gold"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ttTa8XUAAAAJ&citpid=5",
+            "indexes": {
+                "Citations": "207",
+                "h-index": "6",
+                "i10-index": "6"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=ttTa8XUAAAAJ"
+        },
+        {
+            "name": "Dr. Michael S. Aduah",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Remote sensing/GIS for water resources management",
+                "Land surveying"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=6y9WGfgAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "219",
+                "h-index": "8",
+                "i10-index": "7"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=6y9WGfgAAAAJ"
+        },
+        {
+            "name": "Issaka Yakubu",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "193",
+                "h-index": "8",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=VEfq2qMAAAAJ"
+        },
+        {
+            "name": "Yakubu Issaka",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "183",
+                "h-index": "8",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=HMUB3OsAAAAJ"
+        },
+        {
+            "name": "Thomas Wi-Afedzi",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Soil Chemistry",
+                "Design and development of nanocatalysts and their environmental applications",
+                "Waste conversion for environmental applications"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Pfe6NvEAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "195",
+                "h-index": "8",
+                "i10-index": "8"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=Pfe6NvEAAAAJ"
+        },
+        {
+            "name": "Edward Eric Duncan",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "3D Geographic Information Systems (GIS)"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=r1xwgUkAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "173",
+                "h-index": "7",
+                "i10-index": "6"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=r1xwgUkAAAAJ"
+        },
+        {
+            "name": "Saviour Mantey",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Applications of GIS and Remote Sensing",
+                "Disease mapping"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=pFmA2BkAAAAJ&citpid=4",
+            "indexes": {
+                "Citations": "110",
+                "h-index": "6",
+                "i10-index": "3"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=pFmA2BkAAAAJ"
+        },
+        {
+            "name": "Kojo T. Konadu",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Hydrometallurgy"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "121",
+                "h-index": "5",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=DwGXkXMAAAAJ"
+        },
+        {
+            "name": "Dr Eric Aminartey Agorhom (PhD, UniSA),MAusIMM, WAIMM",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Flotation",
+                "Leaching",
+                "Process Mineralogy/Geometallurgy",
+                "Surface Chemistry",
+                "Environmental Monitoring and Design of Mineral Particl"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=tz7kL9MAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "165",
+                "h-index": "6",
+                "i10-index": "5"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=tz7kL9MAAAAJ"
+        },
+        {
+            "name": "Bright Oppong Afum, PhD",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Mining Optimization",
+                "Geostatistics",
+                "Explosives & Blasting",
+                "Mathematical Programming",
+                "Environmental Geochemistry & Modelling"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=r-XQeB0AAAAJ&citpid=4",
+            "indexes": {
+                "Citations": "166",
+                "h-index": "7",
+                "i10-index": "6"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=r-XQeB0AAAAJ"
+        },
+        {
+            "name": "Engr. Dr. Solomon Adjei Marfo",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Artificial Intelligence application in Petroleum",
+                "Petrochemical and Refining Engineering",
+                "raw materials and agro-waste evaluatio"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=0pGY40QAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "113",
+                "h-index": "5",
+                "i10-index": "5"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=0pGY40QAAAAJ"
+        },
+        {
+            "name": "Christian Kwaku Amuzuvi",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Science and Technology"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "103",
+                "h-index": "6",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=b0-hnt0AAAAJ"
+        },
+        {
+            "name": "Shadrack Fosu",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Ore Characterisation and Process Mineralogy",
+                "Mineral Processing (Flotation and Aqueous Metallurgy)",
+                "Environmental Chemistry and Process Engineering",
+                "Water and Wastewater Treatment"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=m4MczFoAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "134",
+                "h-index": "4",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=m4MczFoAAAAJ"
+        },
+        {
+            "name": "Dr Kofi Kamasa",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Macroeconomics",
+                "Monetary and Public Sector Economics",
+                "International Trade and Finance",
+                "Financial Economics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=kQ-opB0AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "116",
+                "h-index": "6",
+                "i10-index": "3"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=kQ-opB0AAAAJ"
+        },
+        {
+            "name": "Jennifer MacCarthy",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "169",
+                "h-index": "6",
+                "i10-index": "6"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=211dpjoAAAAJ"
+        },
+        {
+            "name": "Akyene Tetteh",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Supply Chain Management",
+                "Decision Science",
+                "E-Commerce"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=eg6_Y10AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "158",
+                "h-index": "5",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=eg6_Y10AAAAJ"
+        },
+        {
+            "name": "Felix L. Aryeh",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Wireless and Wired Network Security",
+                "Web Applications",
+                "Internet Technologies",
+                "Cyber Security",
+                "Opensource Web Applications and Op"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=2UbICt0AAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "87",
+                "h-index": "5",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=2UbICt0AAAAJ"
+        },
+        {
+            "name": "Prof Mrs Patricia Beatrice Mireku-Gyimah",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "African Oral Literature",
+                "Akan Folktale Study",
+                "African Literature",
+                "Narratology",
+                "FLE"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=fDnqQnoAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "90",
+                "h-index": "6",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=fDnqQnoAAAAJ"
+        },
+        {
+            "name": "Ishmael Quaicoe",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Minerals Engineering",
+                "Development Minerals",
+                "ESG",
+                "Geometallury",
+                "ASM"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "99",
+                "h-index": "5",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=yO_E8y4AAAAJ"
+        },
+        {
+            "name": "Dr. Eric Mensah AMARFIO",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Reservoir Characterization and Simulation",
+                "Production Optimization",
+                "Nano Drilling Fluids",
+                "Petroleum Economic"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=LnGLCGcAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "91",
+                "h-index": "5",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=LnGLCGcAAAAJ"
+        },
+        {
+            "name": "Anthony Simons",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Heat Transfer",
+                "Earth Moving Equipment",
+                "Maintenance and Reliability",
+                "NDT",
+                "Internal Combustion Engines"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "92",
+                "h-index": "5",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=NczTCf4AAAAJ"
+        },
+        {
+            "name": "Peter Anafo",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Open Acess and Institutional Repository"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=bfg31JAAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "80",
+                "h-index": "4",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=bfg31JAAAAAJ"
+        },
+        {
+            "name": "George Agyei",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Process Mineralogy of Oxide Nickel",
+                "Mining",
+                "Environment",
+                "Sustainability"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=kNCnu3gAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "81",
+                "h-index": "5",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=kNCnu3gAAAAJ"
+        },
+        {
+            "name": "Jamel Seidu",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Hydrogeology",
+                "Geophysics",
+                "Applied Artificial Intelligence"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=KTNc1oAAAAAJ&citpid=6",
+            "indexes": {
+                "Citations": "94",
+                "h-index": "6",
+                "i10-index": "3"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=KTNc1oAAAAAJ"
+        },
+        {
+            "name": "Dr Eric Neebo Wiah",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Biomathematics",
+                "Mathematical Epidemiology",
+                "Modelling and Computing"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=21YMsIAAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "90",
+                "h-index": "6",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=21YMsIAAAAAJ"
+        },
+        {
+            "name": "Jerome Ekpaha Adu",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Electrical and Electronics Engineering",
+                "Robotics",
+                "Communication"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Kw9Wjc0AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "97",
+                "h-index": "2",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=Kw9Wjc0AAAAJ"
+        },
+        {
+            "name": "Albert Kofi Kwansah Ansah (PhD)",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Security",
+                "Privacy",
+                "Cryptography",
+                "Cryptocurrencies",
+                "Network Security"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=8v_Q1woAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "64",
+                "h-index": "4",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=8v_Q1woAAAAJ"
+        },
+        {
+            "name": "Anthony Afful Blay",
+            "verified_at": "Verified email at st.umat.edu.gh - Homepage",
+            "specialty": [
+                "Mechanics and Mathematics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=O524Ta8AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "71",
+                "h-index": "2",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=O524Ta8AAAAJ"
+        },
+        {
+            "name": "Isaac Osei",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Renewable energy"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=e7EDwnQAAAAJ&citpid=4",
+            "indexes": {
+                "Citations": "56",
+                "h-index": "4",
+                "i10-index": "3"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=e7EDwnQAAAAJ"
+        },
+        {
+            "name": "Cynthia Borkai Boye",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Shoreline change analyses",
+                "GIS applications",
+                "Engineering Surveying"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ZYeYa5YAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "75",
+                "h-index": "5",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=ZYeYa5YAAAAJ"
+        },
+        {
+            "name": "Bartholomew Kofi Addo",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Engineering"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=96ShubMAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "73",
+                "h-index": "3",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=96ShubMAAAAJ"
+        },
+        {
+            "name": "Eric Ofori-Ntow Jnr",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Forecasting",
+                "Production and Design"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=lPvIO8YAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "54",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=lPvIO8YAAAAJ"
+        },
+        {
+            "name": "Michael Stanley Peprah",
+            "verified_at": "Verified email at st.umat.edu.gh - Homepage",
+            "specialty": [
+                "Geospatial Science",
+                "Hydrogeophysics",
+                "Environmental Geodesy",
+                "Applied Artificial Intelligence"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=vMmQuAcAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "72",
+                "h-index": "5",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=vMmQuAcAAAAJ"
+        },
+        {
+            "name": "Cecilia Addei",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "African Literature",
+                "English",
+                "Literature"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=tmQFcTwAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "53",
+                "h-index": "3",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=tmQFcTwAAAAJ"
+        },
+        {
+            "name": "Robert Agyare Ofosu",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "control engineering",
+                "industrial automation",
+                "embedded systems",
+                "electrical machines and drives",
+                "artifical intelligence"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=O-A78IkAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "59",
+                "h-index": "4",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=O-A78IkAAAAJ"
+        },
+        {
+            "name": "Samuel Asare-Asher",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "62",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=fW7YNdAAAAAJ"
+        },
+        {
+            "name": "Alex Saim",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Sustainable minerals extraction",
+                "Wastewater treatment",
+                "Bionanotechnology",
+                "Flotation"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "26",
+                "h-index": "3",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=0wI-J2MAAAAJ"
+        },
+        {
+            "name": "Seth Boahen",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Supply Chain",
+                "Logistics",
+                "Administration",
+                "Management"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "40",
+                "h-index": "3",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=3U8_wLUAAAAJ"
+        },
+        {
+            "name": "Kofi Adomako-Ansah",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Economic and Ore Deposit Geology",
+                "Whole Rock Geochemistry",
+                "Fluid Inclusion and Isotope Geochemistry",
+                "Ore Mineralogy and Petrolog"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "49",
+                "h-index": "4",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=aBYBChkAAAAJ"
+        },
+        {
+            "name": "Dr Lewis Brew",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Algebraic Topology and Statistical Analyses"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=OOEKL1wAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "46",
+                "h-index": "4",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=OOEKL1wAAAAJ"
+        },
+        {
+            "name": "Mohammed Okoe Alhassan",
+            "verified_at": "Verified email at ttu.edu.gh",
+            "specialty": [
+                "Renewable Energy",
+                "Material flammability",
+                "Eng. System Design & Analysis"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=huyPEcsAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "47",
+                "h-index": "3",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=huyPEcsAAAAJ"
+        },
+        {
+            "name": "Botwe Takyi, Phd",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Petroleum Geochemistry",
+                "Petroleum Geology",
+                "Remote Sensing and GIS Application in Mineral and Hydrocarbon Exploration",
+                "Mining Geo"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=hyzv0tYAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "26",
+                "h-index": "3",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=hyzv0tYAAAAJ"
+        },
+        {
+            "name": "Samuel Kwaku Obeng",
+            "verified_at": "Verified email at st.umat.edu.gh - Homepage",
+            "specialty": [
+                "Applied and theoretical statistics",
+                "model selection",
+                "linear & non-linear models",
+                "etc."
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=L64gD4sAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "33",
+                "h-index": "2",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=L64gD4sAAAAJ"
+        },
+        {
+            "name": "Theophilus Joe-Asare",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Human Factor and Ergonomics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=4--inMwAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "37",
+                "h-index": "4",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=4--inMwAAAAJ"
+        },
+        {
+            "name": "Isaac Kwaku Attatsi",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Electrocatalysis",
+                "Clean Energy Chemistry",
+                "Material Chemistry",
+                "Porphyrin Chemistry"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qWXod7kAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "49",
+                "h-index": "5",
+                "i10-index": "3"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=qWXod7kAAAAJ"
+        },
+        {
+            "name": "Ernest Adaze",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "CFD",
+                "Multiphase Flow Modeling",
+                "Heat Transfer",
+                "Thermodynamics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=N2-9qm8AAAAJ&citpid=5",
+            "indexes": {
+                "Citations": "41",
+                "h-index": "2",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=N2-9qm8AAAAJ"
+        },
+        {
+            "name": "Seth Ayekple",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Corporate Social Responsibility and Firm Performance"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "26",
+                "h-index": "1",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=UYLG-WQAAAAJ"
+        },
+        {
+            "name": "George Mensah Tetteh",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Structural Geology",
+                "Petrology",
+                "Geochemistry",
+                "Mineral Exploration"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=xg_FdHAAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "22",
+                "h-index": "3",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=xg_FdHAAAAAJ"
+        },
+        {
+            "name": "henry otoo",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Machine Learning",
+                "Applied Mathematics",
+                "Operations Research",
+                "Optimization",
+                "Toplogical Dynamics"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "25",
+                "h-index": "4",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=GVmWOf8AAAAJ"
+        },
+        {
+            "name": "Albert Buabeng",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Machine Learning",
+                "Data Mining",
+                "Multivariate Analysis"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Hi7BRP4AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "24",
+                "h-index": "3",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=Hi7BRP4AAAAJ"
+        },
+        {
+            "name": "Dr Benjamin Odoi",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Applied Statistics",
+                "Financial Statistics",
+                "Bio-Statistics Big Data Analytics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=wvtES1AAAAAJ&citpid=6",
+            "indexes": {
+                "Citations": "20",
+                "h-index": "3",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=wvtES1AAAAAJ"
+        },
+        {
+            "name": "Gideon Quartey",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Design",
+                "Analysis and Optimization of Machine Elements"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "18",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=TxlvqlEAAAAJ"
+        },
+        {
+            "name": "Joseph Acquah",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Applied Mathematics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=T_yBJS8AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "18",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=T_yBJS8AAAAJ"
+        },
+        {
+            "name": "Augustine Akuoko Kwarteng",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Mechanical engineering"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=oHrpShoAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "21",
+                "h-index": "3",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=oHrpShoAAAAJ"
+        },
+        {
+            "name": "Theophilus Andoh-Robertson",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Counselling Psychology",
+                "Administration",
+                "Educational Management"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ms-TXfIAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "19",
+                "h-index": "3",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=ms-TXfIAAAAJ"
+        },
+        {
+            "name": "BEMPONG FREDERICK",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Stratigraphy",
+                "Seismic Reservior Characterisation",
+                "Basin Analysis"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=0vK4DXYAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "19",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=0vK4DXYAAAAJ"
+        },
+        {
+            "name": "Eric Anthony Vurinye Kavaarpuo",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Public policy",
+                "development planning",
+                "social development"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=SLb9qJwAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "13",
+                "h-index": "1",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=SLb9qJwAAAAJ"
+        },
+        {
+            "name": "Ato Fanyin- Martin",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Anaerobic Digestion",
+                "WASH",
+                "Biotechnology",
+                "Pyrolysis"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=EFmpyt0AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "17",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=EFmpyt0AAAAJ"
+        },
+        {
+            "name": "Audrey Asante",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Computer Security",
+                "Digital Forensics",
+                "Network Security"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "16",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=hJ-AtnYAAAAJ"
+        },
+        {
+            "name": "Johannes Ami",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Chemical Engineering",
+                "Biotechnology Engineering",
+                "Biofuels",
+                "Enzyme Technology",
+                "Water and wastewater treatment processes"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=jyqhQaoAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "16",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=jyqhQaoAAAAJ"
+        },
+        {
+            "name": "Festus Kunkyin-Saadaari, PhD",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Artificial Intelligence",
+                "Machine Learning",
+                "Intelligent Rock Mechanics and Excavation Stability",
+                "Rock Mass Characterisation",
+                "Slop"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=HGtVtBgAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "13",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=HGtVtBgAAAAJ"
+        },
+        {
+            "name": "Mensah Sitti",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "TCP",
+                "HCI",
+                "Robotics",
+                "Green and Cloud Computing"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "14",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=K0xK8YQAAAAJ"
+        },
+        {
+            "name": "David Delali Zigli",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Algebraic Topology"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qrRXg9kAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "16",
+                "h-index": "3",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=qrRXg9kAAAAJ"
+        },
+        {
+            "name": "Mr. Edward Yin",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Materials",
+                "Mechanics and Design"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=H4pIapsAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "16",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=H4pIapsAAAAJ"
+        },
+        {
+            "name": "Hamidu Abdel-Fatao",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "16",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=ihn7oNoAAAAJ"
+        },
+        {
+            "name": "Priscilla Forson",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Energy Economics",
+                "Monetary Economics",
+                "International Trade and Finance",
+                "Industrial Organisation and Development"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=dvtNuwMAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "14",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=dvtNuwMAAAAJ"
+        },
+        {
+            "name": "Alexander Kwaku Banson",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Hydrogeology"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "10",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=yjHU9vYAAAAJ"
+        },
+        {
+            "name": "Daniel Ocarn",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Upstream petroleum project Evaluation",
+                "Fiscal System Analysis",
+                "Reservoir Simulation and Characterization",
+                "Production Optimization"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qUU3Mh0AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "8",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=qUU3Mh0AAAAJ"
+        },
+        {
+            "name": "Kwadwo Boakye",
+            "verified_at": "Verified email at st.umat.edu.gh - Homepage",
+            "specialty": [
+                "Mathematics",
+                "Science",
+                "Economics",
+                "Philosophy"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=4darGYkAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "9",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=4darGYkAAAAJ"
+        },
+        {
+            "name": "isaac ampofi",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Financial Mathematics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=5PGYjF4AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "6",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=5PGYjF4AAAAJ"
+        },
+        {
+            "name": "kyekyere Ernest",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Renewable energy",
+                "Biofuels",
+                "Fluids",
+                "Thermodynamics",
+                "Aerodynamics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=uDB6EjsAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "12",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=uDB6EjsAAAAJ"
+        },
+        {
+            "name": "Clara Akalanya Abuntori",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Mineral Resource Estimation",
+                "Underground Mining",
+                "Material Handling",
+                "Applications of Artificial Intelligence in Mining"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "8",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=XwC3LaUAAAAJ"
+        },
+        {
+            "name": "Justice Kangah",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Applied Mathematics",
+                "Mathematics Education",
+                "Statistics",
+                "Optimization",
+                "Software Programming"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=iffn45AAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "6",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=iffn45AAAAAJ"
+        },
+        {
+            "name": "Richard Kofi Annan",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Networking",
+                "Telemedicine",
+                "VOIP"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "8",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=gvgsYikAAAAJ"
+        },
+        {
+            "name": "Zelda Arku",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Information systems related research"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "10",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=aDK1NDUAAAAJ"
+        },
+        {
+            "name": "GODWIN DIAMENU",
+            "verified_at": "No verified email",
+            "specialty": [
+                "Power systems modelling and stability analysis"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "9",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=LXWU32sAAAAJ"
+        },
+        {
+            "name": "Vivian Isabella Seshie",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Municipal waste characterisation and quantification",
+                "EIA",
+                "Waste management",
+                "Water quality and Waste water analysis"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=-0vB1TsAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "5",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=-0vB1TsAAAAJ"
+        },
+        {
+            "name": "Richmond Kwesi Amoah",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Electrical Power Systems",
+                "Renewable Energy",
+                "Energy Auditing"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "2",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=r3jIiSYAAAAJ"
+        },
+        {
+            "name": "SELASI KWAKU OCLOO",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Applied Statistics",
+                "Distribution Theory"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=9NA2UvgAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "2",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=9NA2UvgAAAAJ"
+        },
+        {
+            "name": "Ivy Botchway",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Information Security",
+                "Software Quality Assurance",
+                "Multi-criteria and Decision Making Analysis"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=lSAuJEIAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "3",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=lSAuJEIAAAAJ"
+        },
+        {
+            "name": "Miss Hamdiya Orleans-Boham",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "industrial minerals",
+                "small scale mining"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "5",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=sa3mgkQAAAAJ"
+        },
+        {
+            "name": "ABDI SAMULANG",
+            "verified_at": "Verified email at habiburrahman.ponpes.id - Homepage",
+            "specialty": [
+                "Umum"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=TMUd8xIAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "6",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=TMUd8xIAAAAJ"
+        },
+        {
+            "name": "Paul A. Agbodza, PhD",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Mathematics of Finance",
+                "Statistics",
+                "Data Science",
+                "Text Mining",
+                "Symbolic Logic"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=dB7-aSwAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "3",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=dB7-aSwAAAAJ"
+        },
+        {
+            "name": "Michael Apodei",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Statistics and Operation Research"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=vzmteasAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "2",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=vzmteasAAAAJ"
+        },
+        {
+            "name": "Sylvester Akpah",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Local Area Network Infrastructure Deployment and Management",
+                "Wireless Securities",
+                "Open source firewalls"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=hlQrZXwAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "5",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=hlQrZXwAAAAJ"
+        },
+        {
+            "name": "Bridget Sena Borbor",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Mathematical and Statistical Modelling"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "6",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=ZfTxniIAAAAJ"
+        },
+        {
+            "name": "abdi samulang",
+            "verified_at": "Verified email at habiburrahman.ponpes.id - Homepage",
+            "specialty": [
+                "Umum"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=-TnBVFoAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "1",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=-TnBVFoAAAAJ"
+        },
+        {
+            "name": "Umaru Mohammed Yussif",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Embedded Systems"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=U0q6Sq4AAAAJ"
+        },
+        {
+            "name": "Belinda Koasiba Ettih",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Financial economics",
+                "Time Series Analysis",
+                "Regression Analysis"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=u9wsU38AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "1",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=u9wsU38AAAAJ"
+        },
+        {
+            "name": "Kobina Abakah-Paintsil",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Additive Manufacturiing",
+                "Automation and Control",
+                "Robotics"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=cZ_mu-IAAAAJ"
+        },
+        {
+            "name": "Derrick Donkor",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Mathemtics",
+                "Electrical and Electronics Engineering"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=S8RS2tgAAAAJ&citpid=1",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=S8RS2tgAAAAJ"
+        },
+        {
+            "name": "Philip Boateng Ansah",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Onomastics",
+                "Sociolinguistics",
+                "Discourse Analysis",
+                "English Language Studies"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=F4WAWLcAAAAJ"
+        },
+        {
+            "name": "Philip Blewushie",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Power Systems",
+                "Analog/RF Front End Integrated Circuit Design (Ana"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=2ADJX1wAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "1",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=2ADJX1wAAAAJ"
+        },
+        {
+            "name": "Emefa Priscilla Amenyah Kove",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "drilling mud",
+                "drilling waste management",
+                "activated carbons"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=_UrEuHMAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "1",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=_UrEuHMAAAAJ"
+        },
+        {
+            "name": "arnold kwofie",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Computer Science",
+                "Robotics",
+                "electronics",
+                "cloud computing",
+                "Artificial Intelligence"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=y107Pt8AAAAJ&citpid=1",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=y107Pt8AAAAJ"
+        },
+        {
+            "name": "Gidigah Pascal",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Statistics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=vEfKhk4AAAAJ&citpid=1",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=vEfKhk4AAAAJ"
+        },
+        {
+            "name": "Isaac Joseph Cobbinah",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Extractive Metallurgy and small scale mining"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qSktjMcAAAAJ&citpid=3",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=qSktjMcAAAAJ"
+        },
+        {
+            "name": "Clement Ayitey",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Development Economics",
+                "Policy Analysis",
+                "Monetary Economics",
+                "Management of Higher Education Administration"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=lIHGX8sAAAAJ&citpid=2",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=lIHGX8sAAAAJ"
+        },
+        {
+            "name": "Matthew Adenyo",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=wSQRzjUAAAAJ&citpid=3",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=wSQRzjUAAAAJ"
+        },
+        {
+            "name": "Korklu A. Laryea",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Information Studies",
+                "Information Science",
+                "Ephemera Studies"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=cVsj1ecAAAAJ&citpid=2",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=cVsj1ecAAAAJ"
+        },
+        {
+            "name": "Emmanuel Daanoba SUNKARI, PhD",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Exploration Geochemistry/Groundwater Geochemistry/Ore Deposit Geology/Petrology/Medical Geology/Geostatistics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=vqnT8iEAAAAJ&citpid=5",
+            "indexes": {
+                "Citations": "606",
+                "h-index": "15",
+                "i10-index": "18"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=vqnT8iEAAAAJ"
+        },
+        {
+            "name": "Anthony Ewusi",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Groundwater and Geophysics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=VXYLIRQAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "504",
+                "h-index": "11",
+                "i10-index": "13"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=VXYLIRQAAAAJ"
+        },
+        {
+            "name": "Yao Yevenyo Ziggah (PhD)",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Geomatic Engineering",
+                "Geodesy",
+                "Geosciences",
+                "Machine Learning/AI"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=5yOqH18AAAAJ&citpid=6",
+            "indexes": {
+                "Citations": "1199",
+                "h-index": "19",
+                "i10-index": "36"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=5yOqH18AAAAJ"
+        },
+        {
+            "name": "Jerry Samuel Yaw Kuma",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Environmental Hydrogeology",
+                "Water Resources Management",
+                "Mine Water",
+                "Geophysics and Geology"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=tPONufgAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "512",
+                "h-index": "14",
+                "i10-index": "20"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=tPONufgAAAAJ"
+        },
+        {
+            "name": "Asep Saepul Hamdi, M.Pd.,M.E",
+            "verified_at": "Verified email at stebipui.ac.id",
+            "specialty": [
+                "metode penelitian"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qQP7CDUAAAAJ&citpid=5",
+            "indexes": {
+                "Citations": "5765",
+                "h-index": "26",
+                "i10-index": "97"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=qQP7CDUAAAAJ"
+        },
+        {
+            "name": "Dr Grace Ofori-Sarpong",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Gold hydrometallurgy",
+                "mycohydrometallurgy",
+                "bioprocessing of minerals",
+                "mine wastewater"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=lTVA2aoAAAAJ&citpid=4",
+            "indexes": {
+                "Citations": "729",
+                "h-index": "12",
+                "i10-index": "13"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=lTVA2aoAAAAJ"
+        },
+        {
+            "name": "Eric Stemn",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Occupational Health and Safety",
+                "GIS & RS Applications in Environmental Studies",
+                "Waste Management"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ivrmBEcAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "652",
+                "h-index": "14",
+                "i10-index": "19"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=ivrmBEcAAAAJ"
+        },
+        {
+            "name": "Richard Amankwah",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Gold beneficiation",
+                "hydrometallurgy",
+                "environmental biotechnology",
+                "microwave processing",
+                "small scale mining"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "1385",
+                "h-index": "19",
+                "i10-index": "28"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=958rufEAAAAJ"
+        },
+        {
+            "name": "Dr. Andy Yaw Kwarteng",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Remote Sensing and GIS",
+                "Geology",
+                "Climate change"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=P05587AAAAAJ&citpid=5",
+            "indexes": {
+                "Citations": "1881",
+                "h-index": "14",
+                "i10-index": "19"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=P05587AAAAAJ"
+        },
+        {
+            "name": "Solomon Nunoo",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "adaptive signal processing",
+                "wireless communication",
+                "energy management"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=apZAYykAAAAJ&citpid=4",
+            "indexes": {
+                "Citations": "668",
+                "h-index": "10",
+                "i10-index": "11"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=apZAYykAAAAJ"
+        },
+        {
+            "name": "Benjamin Edem Meteku (PhD)",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Chemical safety",
+                "Catalysis",
+                "Process technology",
+                "Nanomaterials",
+                "MOFs"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=mZi0nxIAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "297",
+                "h-index": "7",
+                "i10-index": "5"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=mZi0nxIAAAAJ"
+        },
+        {
+            "name": "Engr Prof Eric Broni-Bediako",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Drilling Optimization",
+                "Environment",
+                "Health and Safety in the Oil and Gas Industry",
+                "Petroleum Economics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ypfDaTIAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "317",
+                "h-index": "10",
+                "i10-index": "12"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=ypfDaTIAAAAJ"
+        },
+        {
+            "name": "Solomon Asante-Okyere",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Artificial Intelligence (AI) and Machine Learning",
+                "Reservoir Characterization",
+                "Petrophysics",
+                "Source Rock Geochemistry"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "267",
+                "h-index": "9",
+                "i10-index": "9"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=C3TY_MQAAAAJ"
+        },
+        {
+            "name": "Emmanuel Effah",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Computer Science and Engineering"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=mTlKWJcAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "251",
+                "h-index": "8",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=mTlKWJcAAAAJ"
+        },
+        {
+            "name": "Engr. Dr. Clement A. Komolafe",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Thermal Engineering",
+                "Energy Technologies"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=zfj4W-oAAAAJ&citpid=10",
+            "indexes": {
+                "Citations": "256",
+                "h-index": "9",
+                "i10-index": "9"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=zfj4W-oAAAAJ"
+        },
+        {
+            "name": "Eric Gyimah, Ph.D.",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Analytical Chemistry & Environmental Toxicology"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Buz818MAAAAJ&citpid=20",
+            "indexes": {
+                "Citations": "445",
+                "h-index": "13",
+                "i10-index": "13"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=Buz818MAAAAJ"
+        },
+        {
+            "name": "Eric Thompson Brantson",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Reservoir Modeling and Simulation"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "287",
+                "h-index": "11",
+                "i10-index": "12"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=JGLw4Q0AAAAJ"
+        },
+        {
+            "name": "Richard Amorin",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Drilling Optimisation",
+                "HSE",
+                "Natural Gas Utilisation"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=lkkgazAAAAAJ&citpid=5",
+            "indexes": {
+                "Citations": "307",
+                "h-index": "10",
+                "i10-index": "10"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=lkkgazAAAAAJ"
+        },
+        {
+            "name": "Prof Bernard Kumi-Boateng",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "GIS",
+                "Remote Sensing",
+                "Vegetation Mapping",
+                "Land Surveys"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=CdohxWgAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "253",
+                "h-index": "9",
+                "i10-index": "8"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=CdohxWgAAAAJ"
+        },
+        {
+            "name": "Dominic Yellezuome",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Biomass energy",
+                "Anaerobic digestion"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "241",
+                "h-index": "9",
+                "i10-index": "9"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=rf1SiEkAAAAJ"
+        },
+        {
+            "name": "Cila Umat",
+            "verified_at": "Verified email at ukm.edu.my",
+            "specialty": [
+                "Cochlear implant",
+                "speech perception",
+                "hearing screening technology",
+                "audiology"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Wcy-g1cAAAAJ&citpid=5",
+            "indexes": {
+                "Citations": "232",
+                "h-index": "8",
+                "i10-index": "6"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=Wcy-g1cAAAAJ"
+        },
+        {
+            "name": "Dr Clement Owusu (PhD, UniSA), WAIMM",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Process plant optimization",
+                "minerals flotation",
+                "aqueous processing and colloidal chemistry",
+                "minerals surface characterisation (T"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=JT4vuesAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "228",
+                "h-index": "7",
+                "i10-index": "6"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=JT4vuesAAAAJ"
+        },
+        {
+            "name": "Dr Frank Boateng",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "CSR",
+                "Strategy",
+                "ESG",
+                "Small Scale Mining",
+                "Gold"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ttTa8XUAAAAJ&citpid=5",
+            "indexes": {
+                "Citations": "207",
+                "h-index": "6",
+                "i10-index": "6"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=ttTa8XUAAAAJ"
+        },
+        {
+            "name": "Edward Eric Duncan",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "3D Geographic Information Systems (GIS)"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=r1xwgUkAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "173",
+                "h-index": "7",
+                "i10-index": "6"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=r1xwgUkAAAAJ"
+        },
+        {
+            "name": "Clement Kweku Arthur, PhD",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Artificial Intelligence",
+                "Explosives and Blasting Technology",
+                "Optimisation of Mining Systems"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=TOJ6_30AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "225",
+                "h-index": "7",
+                "i10-index": "7"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=TOJ6_30AAAAJ"
+        },
+        {
+            "name": "Yakubu Issaka",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "183",
+                "h-index": "8",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=HMUB3OsAAAAJ"
+        },
+        {
+            "name": "Osei Harrison",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Petroleum Production",
+                "Oil water Separation"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=xHy4MxcAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "210",
+                "h-index": "4",
+                "i10-index": "3"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=xHy4MxcAAAAJ"
+        },
+        {
+            "name": "Thomas Wi-Afedzi",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Soil Chemistry",
+                "Design and development of nanocatalysts and their environmental applications",
+                "Waste conversion for environmental applications"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Pfe6NvEAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "195",
+                "h-index": "8",
+                "i10-index": "8"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=Pfe6NvEAAAAJ"
+        },
+        {
+            "name": "Dr. Michael S. Aduah",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Remote sensing/GIS for water resources management",
+                "Land surveying"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=6y9WGfgAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "219",
+                "h-index": "8",
+                "i10-index": "7"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=6y9WGfgAAAAJ"
+        },
+        {
+            "name": "Issaka Yakubu",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "193",
+                "h-index": "8",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=VEfq2qMAAAAJ"
+        },
+        {
+            "name": "Saviour Mantey",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Applications of GIS and Remote Sensing",
+                "Disease mapping"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=pFmA2BkAAAAJ&citpid=4",
+            "indexes": {
+                "Citations": "110",
+                "h-index": "6",
+                "i10-index": "3"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=pFmA2BkAAAAJ"
+        },
+        {
+            "name": "Akyene Tetteh",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Supply Chain Management",
+                "Decision Science",
+                "E-Commerce"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=eg6_Y10AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "158",
+                "h-index": "5",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=eg6_Y10AAAAJ"
+        },
+        {
+            "name": "Bright Oppong Afum, PhD",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Mining Optimization",
+                "Geostatistics",
+                "Explosives & Blasting",
+                "Mathematical Programming",
+                "Environmental Geochemistry & Modelling"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=r-XQeB0AAAAJ&citpid=4",
+            "indexes": {
+                "Citations": "166",
+                "h-index": "7",
+                "i10-index": "6"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=r-XQeB0AAAAJ"
+        },
+        {
+            "name": "Engr. Dr. Solomon Adjei Marfo",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Artificial Intelligence application in Petroleum",
+                "Petrochemical and Refining Engineering",
+                "raw materials and agro-waste evaluatio"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=0pGY40QAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "113",
+                "h-index": "5",
+                "i10-index": "5"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=0pGY40QAAAAJ"
+        },
+        {
+            "name": "Kojo T. Konadu",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Hydrometallurgy"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "121",
+                "h-index": "5",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=DwGXkXMAAAAJ"
+        },
+        {
+            "name": "Jennifer MacCarthy",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "169",
+                "h-index": "6",
+                "i10-index": "6"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=211dpjoAAAAJ"
+        },
+        {
+            "name": "Dr Eric Aminartey Agorhom (PhD, UniSA),MAusIMM, WAIMM",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Flotation",
+                "Leaching",
+                "Process Mineralogy/Geometallurgy",
+                "Surface Chemistry",
+                "Environmental Monitoring and Design of Mineral Particl"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=tz7kL9MAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "165",
+                "h-index": "6",
+                "i10-index": "5"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=tz7kL9MAAAAJ"
+        },
+        {
+            "name": "Shadrack Fosu",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Ore Characterisation and Process Mineralogy",
+                "Mineral Processing (Flotation and Aqueous Metallurgy)",
+                "Environmental Chemistry and Process Engineering",
+                "Water and Wastewater Treatment"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=m4MczFoAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "134",
+                "h-index": "4",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=m4MczFoAAAAJ"
+        },
+        {
+            "name": "Christian Kwaku Amuzuvi",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Science and Technology"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "103",
+                "h-index": "6",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=b0-hnt0AAAAJ"
+        },
+        {
+            "name": "Dr Kofi Kamasa",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Macroeconomics",
+                "Monetary and Public Sector Economics",
+                "International Trade and Finance",
+                "Financial Economics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=kQ-opB0AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "116",
+                "h-index": "6",
+                "i10-index": "3"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=kQ-opB0AAAAJ"
+        },
+        {
+            "name": "Peter Anafo",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Open Acess and Institutional Repository"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=bfg31JAAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "80",
+                "h-index": "4",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=bfg31JAAAAAJ"
+        },
+        {
+            "name": "Prof Mrs Patricia Beatrice Mireku-Gyimah",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "African Oral Literature",
+                "Akan Folktale Study",
+                "African Literature",
+                "Narratology",
+                "FLE"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=fDnqQnoAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "90",
+                "h-index": "6",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=fDnqQnoAAAAJ"
+        },
+        {
+            "name": "Felix L. Aryeh",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Wireless and Wired Network Security",
+                "Web Applications",
+                "Internet Technologies",
+                "Cyber Security",
+                "Opensource Web Applications and Op"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=2UbICt0AAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "87",
+                "h-index": "5",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=2UbICt0AAAAJ"
+        },
+        {
+            "name": "Dr. Eric Mensah AMARFIO",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Reservoir Characterization and Simulation",
+                "Production Optimization",
+                "Nano Drilling Fluids",
+                "Petroleum Economic"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=LnGLCGcAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "91",
+                "h-index": "5",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=LnGLCGcAAAAJ"
+        },
+        {
+            "name": "Jamel Seidu",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Hydrogeology",
+                "Geophysics",
+                "Applied Artificial Intelligence"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=KTNc1oAAAAAJ&citpid=6",
+            "indexes": {
+                "Citations": "94",
+                "h-index": "6",
+                "i10-index": "3"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=KTNc1oAAAAAJ"
+        },
+        {
+            "name": "Anthony Simons",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Heat Transfer",
+                "Earth Moving Equipment",
+                "Maintenance and Reliability",
+                "NDT",
+                "Internal Combustion Engines"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "92",
+                "h-index": "5",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=NczTCf4AAAAJ"
+        },
+        {
+            "name": "George Agyei",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Process Mineralogy of Oxide Nickel",
+                "Mining",
+                "Environment",
+                "Sustainability"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=kNCnu3gAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "81",
+                "h-index": "5",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=kNCnu3gAAAAJ"
+        },
+        {
+            "name": "Ishmael Quaicoe",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Minerals Engineering",
+                "Development Minerals",
+                "ESG",
+                "Geometallury",
+                "ASM"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "99",
+                "h-index": "5",
+                "i10-index": "4"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=yO_E8y4AAAAJ"
+        },
+        {
+            "name": "Jerome Ekpaha Adu",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Electrical and Electronics Engineering",
+                "Robotics",
+                "Communication"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Kw9Wjc0AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "97",
+                "h-index": "2",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=Kw9Wjc0AAAAJ"
+        },
+        {
+            "name": "Dr Eric Neebo Wiah",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Biomathematics",
+                "Mathematical Epidemiology",
+                "Modelling and Computing"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=21YMsIAAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "90",
+                "h-index": "6",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=21YMsIAAAAAJ"
+        },
+        {
+            "name": "Cynthia Borkai Boye",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Shoreline change analyses",
+                "GIS applications",
+                "Engineering Surveying"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ZYeYa5YAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "75",
+                "h-index": "5",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=ZYeYa5YAAAAJ"
+        },
+        {
+            "name": "Robert Agyare Ofosu",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "control engineering",
+                "industrial automation",
+                "embedded systems",
+                "electrical machines and drives",
+                "artifical intelligence"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=O-A78IkAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "59",
+                "h-index": "4",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=O-A78IkAAAAJ"
+        },
+        {
+            "name": "Isaac Osei",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Renewable energy"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=e7EDwnQAAAAJ&citpid=4",
+            "indexes": {
+                "Citations": "56",
+                "h-index": "4",
+                "i10-index": "3"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=e7EDwnQAAAAJ"
+        },
+        {
+            "name": "Albert Kofi Kwansah Ansah (PhD)",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Security",
+                "Privacy",
+                "Cryptography",
+                "Cryptocurrencies",
+                "Network Security"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=8v_Q1woAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "64",
+                "h-index": "4",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=8v_Q1woAAAAJ"
+        },
+        {
+            "name": "Anthony Afful Blay",
+            "verified_at": "Verified email at st.umat.edu.gh - Homepage",
+            "specialty": [
+                "Mechanics and Mathematics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=O524Ta8AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "71",
+                "h-index": "2",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=O524Ta8AAAAJ"
+        },
+        {
+            "name": "Cecilia Addei",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "African Literature",
+                "English",
+                "Literature"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=tmQFcTwAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "53",
+                "h-index": "3",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=tmQFcTwAAAAJ"
+        },
+        {
+            "name": "Eric Ofori-Ntow Jnr",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Forecasting",
+                "Production and Design"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=lPvIO8YAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "54",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=lPvIO8YAAAAJ"
+        },
+        {
+            "name": "Samuel Asare-Asher",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "62",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=fW7YNdAAAAAJ"
+        },
+        {
+            "name": "Michael Stanley Peprah",
+            "verified_at": "Verified email at st.umat.edu.gh - Homepage",
+            "specialty": [
+                "Geospatial Science",
+                "Hydrogeophysics",
+                "Environmental Geodesy",
+                "Applied Artificial Intelligence"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=vMmQuAcAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "72",
+                "h-index": "5",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=vMmQuAcAAAAJ"
+        },
+        {
+            "name": "Bartholomew Kofi Addo",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Engineering"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=96ShubMAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "73",
+                "h-index": "3",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=96ShubMAAAAJ"
+        },
+        {
+            "name": "Mohammed Okoe Alhassan",
+            "verified_at": "Verified email at ttu.edu.gh",
+            "specialty": [
+                "Renewable Energy",
+                "Material flammability",
+                "Eng. System Design & Analysis"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=huyPEcsAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "47",
+                "h-index": "3",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=huyPEcsAAAAJ"
+        },
+        {
+            "name": "Theophilus Joe-Asare",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Human Factor and Ergonomics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=4--inMwAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "37",
+                "h-index": "4",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=4--inMwAAAAJ"
+        },
+        {
+            "name": "Samuel Kwaku Obeng",
+            "verified_at": "Verified email at st.umat.edu.gh - Homepage",
+            "specialty": [
+                "Applied and theoretical statistics",
+                "model selection",
+                "linear & non-linear models",
+                "etc."
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=L64gD4sAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "33",
+                "h-index": "2",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=L64gD4sAAAAJ"
+        },
+        {
+            "name": "Seth Boahen",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Supply Chain",
+                "Logistics",
+                "Administration",
+                "Management"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "40",
+                "h-index": "3",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=3U8_wLUAAAAJ"
+        },
+        {
+            "name": "Alex Saim",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Sustainable minerals extraction",
+                "Wastewater treatment",
+                "Bionanotechnology",
+                "Flotation"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "26",
+                "h-index": "3",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=0wI-J2MAAAAJ"
+        },
+        {
+            "name": "Kofi Adomako-Ansah",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Economic and Ore Deposit Geology",
+                "Whole Rock Geochemistry",
+                "Fluid Inclusion and Isotope Geochemistry",
+                "Ore Mineralogy and Petrolog"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "49",
+                "h-index": "4",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=aBYBChkAAAAJ"
+        },
+        {
+            "name": "Botwe Takyi, Phd",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Petroleum Geochemistry",
+                "Petroleum Geology",
+                "Remote Sensing and GIS Application in Mineral and Hydrocarbon Exploration",
+                "Mining Geo"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=hyzv0tYAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "26",
+                "h-index": "3",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=hyzv0tYAAAAJ"
+        },
+        {
+            "name": "Ernest Adaze",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "CFD",
+                "Multiphase Flow Modeling",
+                "Heat Transfer",
+                "Thermodynamics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=N2-9qm8AAAAJ&citpid=5",
+            "indexes": {
+                "Citations": "41",
+                "h-index": "2",
+                "i10-index": "2"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=N2-9qm8AAAAJ"
+        },
+        {
+            "name": "Isaac Kwaku Attatsi",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Electrocatalysis",
+                "Clean Energy Chemistry",
+                "Material Chemistry",
+                "Porphyrin Chemistry"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qWXod7kAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "49",
+                "h-index": "5",
+                "i10-index": "3"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=qWXod7kAAAAJ"
+        },
+        {
+            "name": "Dr Lewis Brew",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Algebraic Topology and Statistical Analyses"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=OOEKL1wAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "46",
+                "h-index": "4",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=OOEKL1wAAAAJ"
+        },
+        {
+            "name": "Dr Benjamin Odoi",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Applied Statistics",
+                "Financial Statistics",
+                "Bio-Statistics Big Data Analytics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=wvtES1AAAAAJ&citpid=6",
+            "indexes": {
+                "Citations": "20",
+                "h-index": "3",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=wvtES1AAAAAJ"
+        },
+        {
+            "name": "George Mensah Tetteh",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Structural Geology",
+                "Petrology",
+                "Geochemistry",
+                "Mineral Exploration"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=xg_FdHAAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "22",
+                "h-index": "3",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=xg_FdHAAAAAJ"
+        },
+        {
+            "name": "Joseph Acquah",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Applied Mathematics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=T_yBJS8AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "18",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=T_yBJS8AAAAJ"
+        },
+        {
+            "name": "Augustine Akuoko Kwarteng",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Mechanical engineering"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=oHrpShoAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "21",
+                "h-index": "3",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=oHrpShoAAAAJ"
+        },
+        {
+            "name": "Albert Buabeng",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Machine Learning",
+                "Data Mining",
+                "Multivariate Analysis"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Hi7BRP4AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "24",
+                "h-index": "3",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=Hi7BRP4AAAAJ"
+        },
+        {
+            "name": "henry otoo",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Machine Learning",
+                "Applied Mathematics",
+                "Operations Research",
+                "Optimization",
+                "Toplogical Dynamics"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "25",
+                "h-index": "4",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=GVmWOf8AAAAJ"
+        },
+        {
+            "name": "Theophilus Andoh-Robertson",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Counselling Psychology",
+                "Administration",
+                "Educational Management"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ms-TXfIAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "19",
+                "h-index": "3",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=ms-TXfIAAAAJ"
+        },
+        {
+            "name": "BEMPONG FREDERICK",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Stratigraphy",
+                "Seismic Reservior Characterisation",
+                "Basin Analysis"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=0vK4DXYAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "19",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=0vK4DXYAAAAJ"
+        },
+        {
+            "name": "Seth Ayekple",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Corporate Social Responsibility and Firm Performance"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "26",
+                "h-index": "1",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=UYLG-WQAAAAJ"
+        },
+        {
+            "name": "Gideon Quartey",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Design",
+                "Analysis and Optimization of Machine Elements"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "18",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=TxlvqlEAAAAJ"
+        },
+        {
+            "name": "Ato Fanyin- Martin",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Anaerobic Digestion",
+                "WASH",
+                "Biotechnology",
+                "Pyrolysis"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=EFmpyt0AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "17",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=EFmpyt0AAAAJ"
+        },
+        {
+            "name": "Johannes Ami",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Chemical Engineering",
+                "Biotechnology Engineering",
+                "Biofuels",
+                "Enzyme Technology",
+                "Water and wastewater treatment processes"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=jyqhQaoAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "16",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=jyqhQaoAAAAJ"
+        },
+        {
+            "name": "Priscilla Forson",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Energy Economics",
+                "Monetary Economics",
+                "International Trade and Finance",
+                "Industrial Organisation and Development"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=dvtNuwMAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "14",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=dvtNuwMAAAAJ"
+        },
+        {
+            "name": "Audrey Asante",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Computer Security",
+                "Digital Forensics",
+                "Network Security"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "16",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=hJ-AtnYAAAAJ"
+        },
+        {
+            "name": "Eric Anthony Vurinye Kavaarpuo",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Public policy",
+                "development planning",
+                "social development"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=SLb9qJwAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "13",
+                "h-index": "1",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=SLb9qJwAAAAJ"
+        },
+        {
+            "name": "Mensah Sitti",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "TCP",
+                "HCI",
+                "Robotics",
+                "Green and Cloud Computing"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "14",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=K0xK8YQAAAAJ"
+        },
+        {
+            "name": "Mr. Edward Yin",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Materials",
+                "Mechanics and Design"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=H4pIapsAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "16",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=H4pIapsAAAAJ"
+        },
+        {
+            "name": "David Delali Zigli",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Algebraic Topology"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qrRXg9kAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "16",
+                "h-index": "3",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=qrRXg9kAAAAJ"
+        },
+        {
+            "name": "Festus Kunkyin-Saadaari, PhD",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Artificial Intelligence",
+                "Machine Learning",
+                "Intelligent Rock Mechanics and Excavation Stability",
+                "Rock Mass Characterisation",
+                "Slop"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=HGtVtBgAAAAJ&citpid=3",
+            "indexes": {
+                "Citations": "13",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=HGtVtBgAAAAJ"
+        },
+        {
+            "name": "Hamidu Abdel-Fatao",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "16",
+                "h-index": "2",
+                "i10-index": "1"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=ihn7oNoAAAAJ"
+        },
+        {
+            "name": "GODWIN DIAMENU",
+            "verified_at": "No verified email",
+            "specialty": [
+                "Power systems modelling and stability analysis"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "9",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=LXWU32sAAAAJ"
+        },
+        {
+            "name": "kyekyere Ernest",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Renewable energy",
+                "Biofuels",
+                "Fluids",
+                "Thermodynamics",
+                "Aerodynamics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=uDB6EjsAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "12",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=uDB6EjsAAAAJ"
+        },
+        {
+            "name": "Kwadwo Boakye",
+            "verified_at": "Verified email at st.umat.edu.gh - Homepage",
+            "specialty": [
+                "Mathematics",
+                "Science",
+                "Economics",
+                "Philosophy"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=4darGYkAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "9",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=4darGYkAAAAJ"
+        },
+        {
+            "name": "Zelda Arku",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Information systems related research"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "10",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=aDK1NDUAAAAJ"
+        },
+        {
+            "name": "Alexander Kwaku Banson",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Hydrogeology"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "10",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=yjHU9vYAAAAJ"
+        },
+        {
+            "name": "Richard Kofi Annan",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Networking",
+                "Telemedicine",
+                "VOIP"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "8",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=gvgsYikAAAAJ"
+        },
+        {
+            "name": "Justice Kangah",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Applied Mathematics",
+                "Mathematics Education",
+                "Statistics",
+                "Optimization",
+                "Software Programming"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=iffn45AAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "6",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=iffn45AAAAAJ"
+        },
+        {
+            "name": "Clara Akalanya Abuntori",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Mineral Resource Estimation",
+                "Underground Mining",
+                "Material Handling",
+                "Applications of Artificial Intelligence in Mining"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "8",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=XwC3LaUAAAAJ"
+        },
+        {
+            "name": "isaac ampofi",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Financial Mathematics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=5PGYjF4AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "6",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=5PGYjF4AAAAJ"
+        },
+        {
+            "name": "Daniel Ocarn",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Upstream petroleum project Evaluation",
+                "Fiscal System Analysis",
+                "Reservoir Simulation and Characterization",
+                "Production Optimization"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qUU3Mh0AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "8",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=qUU3Mh0AAAAJ"
+        },
+        {
+            "name": "Paul A. Agbodza, PhD",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Mathematics of Finance",
+                "Statistics",
+                "Data Science",
+                "Text Mining",
+                "Symbolic Logic"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=dB7-aSwAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "3",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=dB7-aSwAAAAJ"
+        },
+        {
+            "name": "Ivy Botchway",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Information Security",
+                "Software Quality Assurance",
+                "Multi-criteria and Decision Making Analysis"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=lSAuJEIAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "3",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=lSAuJEIAAAAJ"
+        },
+        {
+            "name": "Michael Apodei",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Statistics and Operation Research"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=vzmteasAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "2",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=vzmteasAAAAJ"
+        },
+        {
+            "name": "Richmond Kwesi Amoah",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Electrical Power Systems",
+                "Renewable Energy",
+                "Energy Auditing"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "2",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=r3jIiSYAAAAJ"
+        },
+        {
+            "name": "Bridget Sena Borbor",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Mathematical and Statistical Modelling"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "6",
+                "h-index": "2",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=ZfTxniIAAAAJ"
+        },
+        {
+            "name": "Vivian Isabella Seshie",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Municipal waste characterisation and quantification",
+                "EIA",
+                "Waste management",
+                "Water quality and Waste water analysis"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=-0vB1TsAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "5",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=-0vB1TsAAAAJ"
+        },
+        {
+            "name": "Miss Hamdiya Orleans-Boham",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "industrial minerals",
+                "small scale mining"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": {
+                "Citations": "5",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=sa3mgkQAAAAJ"
+        },
+        {
+            "name": "SELASI KWAKU OCLOO",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Applied Statistics",
+                "Distribution Theory"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=9NA2UvgAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "2",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=9NA2UvgAAAAJ"
+        },
+        {
+            "name": "ABDI SAMULANG",
+            "verified_at": "Verified email at habiburrahman.ponpes.id - Homepage",
+            "specialty": [
+                "Umum"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=TMUd8xIAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "6",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=TMUd8xIAAAAJ"
+        },
+        {
+            "name": "Sylvester Akpah",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Local Area Network Infrastructure Deployment and Management",
+                "Wireless Securities",
+                "Open source firewalls"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=hlQrZXwAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "5",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=hlQrZXwAAAAJ"
+        },
+        {
+            "name": "Philip Blewushie",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Power Systems",
+                "Analog/RF Front End Integrated Circuit Design (Ana"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=2ADJX1wAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "1",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=2ADJX1wAAAAJ"
+        },
+        {
+            "name": "Belinda Koasiba Ettih",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Financial economics",
+                "Time Series Analysis",
+                "Regression Analysis"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=u9wsU38AAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "1",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=u9wsU38AAAAJ"
+        },
+        {
+            "name": "Gidigah Pascal",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Statistics"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=vEfKhk4AAAAJ&citpid=1",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=vEfKhk4AAAAJ"
+        },
+        {
+            "name": "Umaru Mohammed Yussif",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Embedded Systems"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=U0q6Sq4AAAAJ"
+        },
+        {
+            "name": "abdi samulang",
+            "verified_at": "Verified email at habiburrahman.ponpes.id - Homepage",
+            "specialty": [
+                "Umum"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=-TnBVFoAAAAJ&citpid=1",
+            "indexes": {
+                "Citations": "1",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=-TnBVFoAAAAJ"
+        },
+        {
+            "name": "Derrick Donkor",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [
+                "Mathemtics",
+                "Electrical and Electronics Engineering"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=S8RS2tgAAAAJ&citpid=1",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=S8RS2tgAAAAJ"
+        },
+        {
+            "name": "arnold kwofie",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Computer Science",
+                "Robotics",
+                "electronics",
+                "cloud computing",
+                "Artificial Intelligence"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=y107Pt8AAAAJ&citpid=1",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=y107Pt8AAAAJ"
+        },
+        {
+            "name": "Kobina Abakah-Paintsil",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Additive Manufacturiing",
+                "Automation and Control",
+                "Robotics"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=cZ_mu-IAAAAJ"
+        },
+        {
+            "name": "Philip Boateng Ansah",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Onomastics",
+                "Sociolinguistics",
+                "Discourse Analysis",
+                "English Language Studies"
+            ],
+            "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=F4WAWLcAAAAJ"
+        },
+        {
+            "name": "Emefa Priscilla Amenyah Kove",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "drilling mud",
+                "drilling waste management",
+                "activated carbons"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=_UrEuHMAAAAJ&citpid=2",
+            "indexes": {
+                "Citations": "1",
+                "h-index": "1",
+                "i10-index": "0"
+            },
+            "url": "https://scholar.google.com/citations?hl=en&user=_UrEuHMAAAAJ"
+        },
+        {
+            "name": "Isaac Joseph Cobbinah",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Extractive Metallurgy and small scale mining"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qSktjMcAAAAJ&citpid=3",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=qSktjMcAAAAJ"
+        },
+        {
+            "name": "Korklu A. Laryea",
+            "verified_at": "Verified email at umat.edu.gh",
+            "specialty": [
+                "Information Studies",
+                "Information Science",
+                "Ephemera Studies"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=cVsj1ecAAAAJ&citpid=2",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=cVsj1ecAAAAJ"
+        },
+        {
+            "name": "Clement Ayitey",
+            "verified_at": "Verified email at umat.edu.gh - Homepage",
+            "specialty": [
+                "Development Economics",
+                "Policy Analysis",
+                "Monetary Economics",
+                "Management of Higher Education Administration"
+            ],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=lIHGX8sAAAAJ&citpid=2",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=lIHGX8sAAAAJ"
+        },
+        {
+            "name": "Matthew Adenyo",
+            "verified_at": "Verified email at st.umat.edu.gh",
+            "specialty": [],
+            "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=wSQRzjUAAAAJ&citpid=3",
+            "indexes": null,
+            "url": "https://scholar.google.com/citations?hl=en&user=wSQRzjUAAAAJ"
+        }
+    ],
+    "UDS": [],
+    "UENR": []
 }
