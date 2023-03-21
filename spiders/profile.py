@@ -1,8 +1,10 @@
-from utils.settings import ChromeSettings
-from spider_web import ProfileSpiderWeb
-import json
 import concurrent.futures
-from middlewares import SpiderMiddleware
+import json
+from datetime import datetime
+
+from ..middlewares import MongoMiddleware, SpiderMiddleware
+from ..settings import ChromeSettings
+from .webs.profilespiderweb import ProfileSpiderWeb
 
 
 class ProfileSpider(ProfileSpiderWeb):
@@ -63,7 +65,12 @@ class ProfileSpider(ProfileSpiderWeb):
                 bio = self.get_scholar_bio_v2()
                 indexes = self.get_citation_indexes()
                 #citations = self.get_citation_graph_data()
-                bio.update(indexes = indexes,url = url)
+                bio.update(indexes = indexes,
+                           url = url,
+                           author_id = url.split("user=")[-1],
+                           last_update = datetime.utcnow().timestamp())
+                
+                print(bio)
                 yield bio
             
             if right_navigation == "break":
@@ -71,35 +78,44 @@ class ProfileSpider(ProfileSpiderWeb):
             
             self.driver.get("https://scholar.google.com/"+right_navigation)
 
-
+    
     def fire_threads(self):
         with concurrent.futures.ThreadPoolExecutor(max_workers=64) as executor:
             executor.map(self.__call__,self.load_metadata())
 
-    #@process_spider_output
-    def __call__(self,metadata):#callback:function):
-        chrome = ChromeSettings(set_chrome_options=False,proxy=None)
-        self.driver = chrome.chef(url = metadata["url"])
+    # #@process_spider_output
+    # def __call__(self,metadata):#callback:function):
+    #     chrome = ChromeSettings(set_chrome_options=False,proxy=None)
+    #     self.driver = chrome.chef(url = metadata["url"])
 
-        with open("./data.json",'r+') as file:
-            file_data = json.load(file)
+    #     with open("D:\\Users\\mk-armah\\CODE\\PYTHON\\rate_your_lecturer\\spider\\google-scholar-spider\\data.json",'r+') as file: 
+    #         file_data = json.load(file)
 
-            func = lambda x: file_data[metadata["alias"]].append(x) #extracts generate item and appends to json
+    #         func = lambda x: file_data[metadata["alias"]].append(x) #extracts generate item and appends to json
             
-            with concurrent.futures.ThreadPoolExecutor() as executor:
-                executor.map(func,self.start_requests(run_name = metadata['alias'])) 
+    #         with concurrent.futures.ThreadPoolExecutor() as executor:
+    #             executor.map(func,self.start_requests(run_name = metadata['alias'])) 
 
-            #Sets file's current position at offset.
-            file.seek(0)
-            # convert back to json.
-            json.dump(file_data, file, indent = 4)
+    #         #Sets file's current position at offset.
+    #         file.seek(0)
+    #         # convert back to json.
+    #         json.dump(file_data, file, indent = 4)
+    
 
+    @MongoMiddleware.ingest_to_mongodb
+    def __call__(self,metadata,**kwargs):
+        chrome = ChromeSettings(set_chrome_options=False,proxy=None)
+        self.driver = chrome.chef(url = metadata["url"])     
+        return self.start_requests(run_name = metadata['alias'])
+    
+    
 
 if __name__ == '__main__':
 
     spider = ProfileSpider()
     spider.name= "UMAT"
-    spider(metadata = {"url":"https://scholar.google.com/citations?view_op=search_authors&mauthors=umat&hl=en&oi=ao",
-                      "alias":"UMAT"})
+    metadata = {"url":"https://scholar.google.com/citations?view_op=search_authors&mauthors=umat&hl=en&oi=ao",
+                      "alias":"UMAT"}
+    spider(metadata)
     
-    # spider.fire_threads()
+    spider.fire_threads()

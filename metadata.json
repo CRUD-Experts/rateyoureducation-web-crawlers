@@ -1,0 +1,45 @@
+{
+    "data" : [
+        {"org":"Kwame Nkrumah University of Science and Technology",
+        "alias":"KNUST",
+        "org_id":7152380281864737756,
+        "continent":"Africa",
+        "country":"Ghana",
+        "url":"https://scholar.google.com/citations?view_op=view_org&hl=en&org=7152380281864737756"},
+        
+        {"org":"University of Cape Coast",
+        "alias":"UCC",
+        "org_id":14888764304008682656,
+        "continent":"Africa",
+        "country":"Ghana",
+        "url":"https://scholar.google.com/citations?view_op=view_org&hl=en&org=14888764304008682656"},
+        
+        {"org":"University of Mines and Technology",
+        "alias":"UMAT",
+        "org_id":"",
+        "continent":"Africa",
+        "country":"Ghana",
+        "url":"https://scholar.google.com/citations?view_op=search_authors&mauthors=umat&hl=en&oi=ao"},
+        
+        {"org":"University of Development Studies, Ghana",
+        "alias":"UDS",
+        "org_id":11107586290447276770,
+        "continent":"Africa",
+        "country":"Ghana",
+        "url":"https://scholar.google.com/citations?view_op=view_org&hl=en&org=11107586290447276770"},
+        
+        {"org":"University of Ghana",
+        "alias":"UG",
+        "org_id":5976495280852929187,
+        "continent":"Africa",
+        "country":"Ghana",
+        "url":"https://scholar.google.com/citations?view_op=view_org&hl=en&org=5976495280852929187"},
+       
+        {"org":"University of Energy and Natural Resources",
+        "alias":"UENR",
+        "org_id":"",
+        "continent":"Africa",
+        "country":"Ghana",
+        "url":"https://scholar.google.com/citations?view_op=search_authors&mauthors=uenr.edu.gh&hl=en&oi=drw"
+        }]
+}

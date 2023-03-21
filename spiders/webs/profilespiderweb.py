@@ -32,13 +32,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.wait import WebDriverWait
 
-from utils.settings import ChromeSettings
-from middlewares import SpiderMiddleware
+from ...middlewares import SpiderMiddleware
+from ...settings import ChromeSettings
+
 spyware = SpiderMiddleware.monitor_spider_action
 
 
         
-
 class ProfileSpiderWeb:
     name = "Profile Spider Web"
 
