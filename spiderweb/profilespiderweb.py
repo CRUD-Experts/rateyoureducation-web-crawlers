@@ -19,7 +19,6 @@ import concurrent.futures
 import json
 import os
 import re
-import sys
 import time
 from datetime import datetime
 
@@ -32,20 +31,20 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.wait import WebDriverWait
 
-from ...middlewares import SpiderMiddleware
-from ...settings import ChromeSettings
+from .middlewares import SpiderMiddleware
+from .settings import ChromeSettings
 
 spyware = SpiderMiddleware.monitor_spider_action
 
-
-        
+      
 class ProfileSpiderWeb:
     name = "Profile Spider Web"
+    checkpoint = ""
 
     @spyware
     def get_page_number(self):
         """get page number """
-
+ 
         page_number_element = WebDriverWait(
                     self.driver, 10).until(
                     EC.presence_of_element_located(
@@ -53,7 +52,6 @@ class ProfileSpiderWeb:
          
         return page_number_element.text
     
-
     @spyware
     def get_scholar_elements(self):
         scholar_elements = self.driver.find_elements(by = By.XPATH,value = "//a[@class = 'gs_ai_pho']")    
@@ -71,6 +69,7 @@ class ProfileSpiderWeb:
     
     @spyware
     def navigate_page(self,right = True):
+        
         """navigate Profiles by click on the arrow buttons"""
 
         right_button_xpath = "//button[contains(@class,'gsc_pgn_pnx')]"
@@ -88,7 +87,7 @@ class ProfileSpiderWeb:
     @spyware
     def navigate_page_v2(self,right = True):
         """navigate Profiles by click on the arrow buttons"""
-
+        self.checkpoint = self.driver.current_url
         right_button_xpath = "//button[contains(@class,'gsc_pgn_pnx')]"
         left_button_xpath = "//button[contains(@class,'gsc_pgn_ppr')]"
 
@@ -135,8 +134,13 @@ class ProfileSpiderWeb:
 
     @spyware
     def get_scholar_bio_v2(self):
+        
+        name_element = WebDriverWait(
+                            self.driver, 10).until(
+                            EC.presence_of_element_located(
+                            (By.CSS_SELECTOR, '#gsc_prf_in')))
+        #name_element = self.driver.find_element(by = By.CSS_SELECTOR,value = '#gsc_prf_in')
 
-        name_element = self.driver.find_element(by = By.CSS_SELECTOR,value = '#gsc_prf_in')
         verified_at_element = self.driver.find_element(by = By.CSS_SELECTOR,value = "#gsc_prf_ivh")
         specialty_div_element = self.driver.find_element(by = By.CSS_SELECTOR,value = "#gsc_prf_int")
         specialty_a_element = specialty_div_element.find_elements(by = By.XPATH,value = "//a[@class = 'gsc_prf_inta gs_ibl']")
@@ -144,14 +148,15 @@ class ProfileSpiderWeb:
         image_div_element = self.driver.find_element(by = By.CSS_SELECTOR,value = "#gsc_prf_pup-img")
         image = image_div_element.get_attribute("src")
         profile = dict(name = name_element.text,
-                       verified_at = verified_at_element.text,
-                       specialty = specialty,
-                       image = image)
+                    verified_at = verified_at_element.text,
+                    specialty = specialty,
+                    image = image)
 
         return profile
+    
 
-    @spyware
     def get_citation_graph_data(self):
+
         """get graph data from scholar page"""
         try:
             #check if scholar has previous work over the years, i.e if graph is available
@@ -163,25 +168,45 @@ class ProfileSpiderWeb:
             assert cited_by_div_tag is not None
         
         except AssertionError as ess_error:
-            raise "Coudn't get citation graph | Webdriver element was null"
+            raise "Coudn't get citation data | Webdriver element was null"
         
         except exceptions.TimeoutException:
             return None
 
         citation_years = cited_by_div_tag.find_elements(by = By.XPATH,value = "//span[@class = 'gsc_g_t']") #years
         citation_graph = cited_by_div_tag.find_elements(by = By.XPATH,value = "//a[@class='gsc_g_a']") #number of citations of the given years
-
+        
         num_of_citations = []
         for bar in citation_graph:
+            time.sleep(2)
             bar.click()
             num_of_citations.append(bar.text)
-
+            print(num_of_citations)
+        
         zipped_data = zip([i.text for i in citation_years],num_of_citations)
         return dict(zipped_data)
+
+    @spyware
+    def get_citation_data(self):
+        """get graph data from scholar page"""
+
+        papers_tag = WebDriverWait(self.driver,5).until(EC.presence_of_all_elements_located((By.XPATH,"//a[@class='gsc_a_at']")))
+        papers = [i.text for i in papers_tag]
+        papers_url = [i.get_attribute('href') for i in papers_tag]
+
+        publication_years = WebDriverWait(self.driver,5).until(EC.presence_of_all_elements_located((By.XPATH,"//span[@class='gsc_a_h gsc_a_hc gs_ibl']")))
+        publication_years = [i.text for i in publication_years]
+       
+        citations = self.driver.find_elements(By.XPATH,"//a[@class='gsc_a_ac gs_ibl']")
+        citations = [i.text for i in citations]
+
+        result = [{"title_of_paper": p, "year_of_publication": y, "cited_by": int(c) if c != '' else 0,'link':u} for p, y, c,u in zip(papers, publication_years, citations,papers_url)]
+
+        return result
     
     @spyware
     def get_co_authors(self):
-        view_all_button_xpath = "//button[@id = 'gsc_coauth_opn']" #view all co-authors button
+        view_all_button_xpath = "//button[@id = 'gsc_coauth_opn']" # view all co-authors button
         list_of_co_authors_xpath = "//a[@class='gs_ai_pho']"
         page_button = self.driver.find_element(by = By.XPATH,
                                               value = view_all_button_xpath) 
@@ -215,9 +240,8 @@ class ProfileSpiderWeb:
         """get scholar citation indexes from the citation table"""
         try:
             #check if citation index table is available
-            citation_table_xpath = "//td[@class = 'gsc_rsb_sc1']"
             citation_table_element = WebDriverWait(
-                self.driver, 10).until(
+                self.driver, 5).until(
                 EC.presence_of_element_located(
                 (By.CLASS_NAME, "gsc_rsb_sc1"))) 
             assert citation_table_element is not None
@@ -231,11 +255,8 @@ class ProfileSpiderWeb:
         table_labels_elements = citation_table_element.find_elements(by = By.XPATH,value = "//a[@class = 'gsc_rsb_f gs_ibl']")
         table_values_elements = citation_table_element.find_elements(by = By.XPATH,value = "//td[@class = 'gsc_rsb_std']")
 
-        table_values = [i.text for enum,i in enumerate(table_values_elements) if enum%2==0 ] #get values for the 'All' column only
+        table_values = [int(i.text) if i.text != '' else 0 for enum,i in enumerate(table_values_elements) if enum%2==0 ] #get values for the 'All' column only
         table_labels = [i.text for i in table_labels_elements]
         zipped_data = zip(table_labels,table_values)
         
         return dict(zipped_data)
-    
-
-    

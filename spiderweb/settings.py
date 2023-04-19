@@ -7,17 +7,16 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
-
-# # proxies = [
-#    174.138.184.82:42409,
-#66.70.235.23:8080
-# ]
-
+from selenium.webdriver import Remote
+import os
+import dotenv
+dotenv.load_dotenv()
 
 class ChromeSettings:
     def __init__(self,proxy = None,set_chrome_options = True):
         self.set_chrome_options = set_chrome_options
-        self.proxy = "http://7f53c02466844038c2740959d82cf520f25e1ed5:js_render=true&antibot=true&premium_proxy=true@proxy.zenrows.com:8001" 
+        self.proxy = "proxy:goes-here" 
+    
     def _set_chrome_options(self) -> None:
         """Sets chrome options for Selenium.
         Chrome options for headless browser is enabled.
@@ -26,6 +25,7 @@ class ChromeSettings:
         chrome_options.add_argument("--headless")
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--window-size=1920,1080")
         #chrome_options.add_argument('--proxy-server=%s' % self.proxy)
         chrome_prefs = {}
         chrome_options.experimental_options["prefs"] = chrome_prefs
@@ -34,29 +34,37 @@ class ChromeSettings:
 
     def chef(self,url: str):
         """
-        Establishes connection with hyperlinks and return soup object
-        Args:
-            
+        Establishes connection with hyperlinks
+        Args:       
             url:str | url to scrape
             driver:webdriver object | an already existing driver which has knowledge of a pre-assigned url
         Returns:      
             soup:beautiful soup object
             driver:webdriver object           
             """
-        driver = webdriver.Chrome(chrome_options  = self._set_chrome_options(),options = ChromeDriverManager().install())    \
-                    if self.set_chrome_options is True else  webdriver.Chrome()       #
+        #driver = webdriver.Chrome(chrome_options  = self._set_chrome_options(),options = ChromeDriverManager().install())#    \
+                  # if self.set_chrome_options is True else  webdriver.Chrome()       #
+
+        #driver = webdriver.Chrome()
+
+        print(os.environ.get("SELENIUM_DRIVER_ENDPOINT"))
+        
+        driver = Remote(
+        command_executor ="http://selenium-hub:4444/wd/hub",  # os.environ.get("SELENIUM_DRIVER_ENDPOINT") ,#'http://selenium:4444/wd/hub',
+        desired_capabilities= {'browserName': 'chrome', 'javascriptEnabled': True,"enableVideo": True},
+        options = self._set_chrome_options()
+        )
 
         driver.get(url)
         try:
             WebDriverWait(
-                driver, 50).until(
+                driver, 10).until( 
                 EC.presence_of_element_located(
                     (By.ID, "gs_bdy_ccl")))
         except TimeoutException as timeout:
-            print(
-                "Spider wasn't fast enough | Connection Timed Out - Error Code : 1001-prior")
+                raise f"Spider wasn't fast enough | Connection Timed Out |{timeout}"
         except Exception as exec:
-            print("An error occured while scraping data {}".format(exec))
-
-        return driver
+            raise "Spider failed to launch webpage{}".format(exec)
+        else:
+            return driver
     
