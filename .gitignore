@@ -1,0 +1,6 @@
+.env
+venv
+.git
+**__pycache__
+*__init__.py
+store/*
