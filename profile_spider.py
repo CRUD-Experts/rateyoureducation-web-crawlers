@@ -76,7 +76,9 @@ class ProfileSpider(ProfileSpiderWeb):
                            url = url,
                            citations = citations,
                            author_id = url.split("user=")[-1],
-                           last_update = datetime.utcnow().timestamp())
+                           university= kwargs['university'],
+                           university_id = kwargs['university_id'], 
+                           last_update = datetime.utcnow())
                 
                 print(bio)
                 yield bio
@@ -103,7 +105,9 @@ class ProfileSpider(ProfileSpiderWeb):
         
         chrome = ChromeSettings(set_chrome_options=False,proxy=None)
         self.driver = chrome.chef(url = metadata["url"])     
-        return self.start_requests(run_name = metadata['alias'])
+        return self.start_requests(run_name = metadata['alias'],
+                                   university = metadata['org'],
+                                   university_id = metadata['_id'])
         
     def crawl(self,metadata):
         """uses retries to persist failures"""
@@ -118,6 +122,9 @@ class ProfileSpider(ProfileSpiderWeb):
                 after_author = self.checkpoint.split('after_author=')[-1].split('&')[0]
                 print("after author:",AFTER_AUTHOR)
                 print("page retries:",PAGE_RETRIES)
+                
+                print(PAGE_RETRIES)
+
                 if after_author == AFTER_AUTHOR and PAGE_RETRIES > 5:
                     break
                 elif after_author == AFTER_AUTHOR:              
@@ -136,34 +143,39 @@ class ProfileSpider(ProfileSpiderWeb):
 
 if __name__ == '__main__':
     
-    metadata = {"url":"https://scholar.google.com/citations?view_op=view_org&hl=en&org=5976495280852929187",
-                "alias":"UG"}
+    # metadata = {"url":"https://scholar.google.com/citations?view_op=view_org&hl=en&org=5976495280852929187",
+    #             "alias":"UG"}
     
-    spider = ProfileSpider()
-    spider.crawl(metadata=metadata)
+    # spider = ProfileSpider()
+    # spider.crawl(metadata=metadata)
 
-    # PAGE_RETRIES = 0
-    # AFTER_AUTHOR = ''
-    # while True:
+    
+#---------------------------------------------------------------------------
+
+    data = MongoMiddleware.load_metadata({"country":"Ghana"})
+   # print("collection data >>> ",list(data))
+    for doc in list(data):
+        print(doc)
+        spider = ProfileSpider()
+        spider.crawl(metadata = doc)
+        
+        MongoMiddleware.controller(doc)
+
+
+    # with open("store/metadata.json", 'r') as file:
+    #     json_data = file.read()
+
+    # data = json.loads(json_data)
+    # for key, value in data['data'].items():
+    #     url = value.get('url', '')
+    #     org = value.get("org",'')
+    #     verified_at = value.get("verified_at",'')
+
+    #     metadata = {"url":url,"alias":key,"org":org,"verified_at":verified_at}
+
     #     spider = ProfileSpider()
-    #     spider(metadata)      
-    #     #spider.fire_threads()
-    #     print("checkpoint :", spider.checkpoint)
-    #     if spider.checkpoint:
-    #         page_number = spider.checkpoint.split('start=')[-1]
-    #         after_author = spider.checkpoint.split('after_author=')[-1].split('&')[0]
-    #         print("after author:",AFTER_AUTHOR)
-    #         print("page retries:",PAGE_RETRIES)
-    #         if after_author == AFTER_AUTHOR and PAGE_RETRIES > 5:
-    #             break
-    #         elif after_author == AFTER_AUTHOR:              
-    #             PAGE_RETRIES+=1 
-    #         else:
-    #             AFTER_AUTHOR = after_author
-    #             PAGE_RETRIES+=1
+    #     spider.crawl(metadata=metadata)
+    #     MongoMiddleware.controller(metadata)
 
-    #         metadata['url'] = spider.checkpoint
-    #         spider.driver.quit()           
-    #         continue
-    #     else:
-    #         break
+
+

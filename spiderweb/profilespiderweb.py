@@ -120,7 +120,7 @@ class ProfileSpiderWeb:
             for t in a_tags:
                 url = t.get_attribute('href')
                 id = url.split("=")[-1]
-                profile_data = dict(name =t.text,id = id,url = url,last_update = datetime.now().timestamp())
+                profile_data = dict(name = t.text,id = id,url = url,last_update = datetime.now().timestamp())
                 profile.append(profile_data)
 
         verified_at_elements = self.driver.find_elements(by = By.XPATH,value = "//div[@class = 'gs_ai_eml']")

@@ -7,6 +7,7 @@ import pymongo
 from pymongo.server_api import ServerApi
 from selenium.common import exceptions
 import json
+from datetime import datetime, timedelta
 
 
 dotenv.load_dotenv()
@@ -28,7 +29,7 @@ class SpiderMiddleware:
                 SpiderMiddleware.logger.info("Spider opened: %s" % "Starting Requests ...",extra = extra)
                 response = callback(self,**kwargs)
                 print("""
-        -----------------------------------------------------------------
+        -------------------------------worker----------------------------------
         ***********   **********   *   * * *      *********   * * *  *      
         *             *        *   *   *     *    *           *        *
         *             *        *   *   *      *   *           *        * 
@@ -83,7 +84,7 @@ class SpiderMiddleware:
         """process and store spider log metrics"""
         pass
 
-    
+
     def process_spider_output(self,callback):
         def func(**kwargs):
             pass
@@ -97,16 +98,22 @@ class SpiderMiddleware:
         SpiderMiddleware.logger.error(exception,extra = extra)
 
 
-
 class MongoMiddleware:
     MONGODB_CONNECTION_STRING = os.environ.get("MONGODB_CONNECTION_STRING")
 
     client = pymongo.MongoClient(MONGODB_CONNECTION_STRING,server_api = ServerApi('1'))
     db = client.rate_your_lecturer 
-    staging = db.scraped_profiles 
-    metadata = db.metadata
+    staging_collection = db.staging 
+    control_collection = db.control
+    metadata_collection = db.metadata
 
-        
+    def load_metadata(data:dict):
+        try:
+            group = MongoMiddleware.metadata_collection.find(data)
+        except Exception as e:
+            raise Exception("could not get group from db: ",e)
+        return group
+    
     def ingest_to_mongodb(callback):
 
         def func(self,metadata,**kwargs):
@@ -114,11 +121,12 @@ class MongoMiddleware:
             try:
 
                 with concurrent.futures.ThreadPoolExecutor() as executor:
-                    updateone = lambda doc: MongoMiddleware.staging.update_one({"author_id":doc['author_id']},{"$set":doc},upsert=True)
+                    updateone = lambda doc: MongoMiddleware.staging_collection.update_one({"author_id":doc['author_id']},{"$set":doc},upsert=True)
                     executor.map(updateone,callback(self,metadata,**kwargs))
 
             except Exception as exc:
-                pass #report the exception to logger
+                #raise Exception(f"Unable to insert data into Staging Database:\n{exc.__cause__}") from exc
+                pass
             return True
         return func
     
@@ -126,6 +134,19 @@ class MongoMiddleware:
         MongoMiddleware.metadata.update_one({"alias":alias},{"$set":{"checkpoint":checkpoint}})
         print("checkpoint created")
     
+    def controller(metadata):
+        
+        try:
+
+            MongoMiddleware.control_collection.create_index("date_created", expireAfterSeconds=3600)
+            MongoMiddleware.control_collection.insert_one({"org":metadata['org'],
+                                                           "verified_at":metadata['verified_at'],
+                                                           "date_created":datetime.now(),
+                                                           "expiry_time": datetime.utcnow() + timedelta(minutes=30)})
+        except Exception as exc:
+            raise Exception(f"Unable to insert data into Control Database:\n{exc.__cause__}") from exc
+        return True
+            
 
 class JsonMiddleware:
 
