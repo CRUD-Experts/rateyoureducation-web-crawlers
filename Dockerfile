@@ -17,5 +17,3 @@ WORKDIR /spider
 COPY . .
 
 ENV PYTHONUNBUFFERED 1
-
-ENV MONGODB_CONNECTION_STRING mongodb+srv://mk-armah:71122263@africa.vbm2ys7.mongodb.net/?retryWrites=true&w=majority&authSource=admin
